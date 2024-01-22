@@ -31,5 +31,16 @@ public class Main {
         System.out.println("no4 = " + no4);
         System.out.println(no4.getProximoNo());
 
+        System.out.println("Teste de metodo...");
+        listarNos(no1);
+
+    }
+
+    public static void listarNos(No no) {
+
+        while(no.getProximoNo() != null){
+            System.out.println(no);
+            no = no.getProximoNo();
+        }
     }
 }

@@ -1,5 +1,4 @@
 # Memória
-__________________________________________________
 ## Memória Primária
 - Não mantem os dados na ausencia de energia.
 
