@@ -82,4 +82,14 @@ Parecido com a estrutura de nó, porém o primeiro elemento colocado tera sua re
 e os elementos a cima apontaram para o de baixo, exemplo...
 elemento 1 ref -> null, elemento 2 ref -> elemento 1, elemento 3 ref -> elemento 2...<br>
 No topo da lista tem uma referencia que aponta para ele também.
+_________________________________________________________
+
+# Fila
+FIFO (First in First Out)
+Nessa estrutura, o primeiro da fila vai apontar pra null.
+tem uma referencia de nó por onde se entra na fila.
+
+- enqueue() -> enfileirar (colocar na fila)
+- dequeue() -> desenfileirar (tirar da fila)
+- isEmpty
 
