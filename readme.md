@@ -73,4 +73,13 @@ imprimeLista(minhaLista);
 - E -> "Element", exemplo: List<E>
 - T -> "Type", exemplo: Collections#addAll
 - ? quando genérico
+________________________________________________________
+
+# Pilha
+Último elemento é o primeiro a sair -> LIFO (Last in First Out)
+
+Parecido com a estrutura de nó, porém o primeiro elemento colocado tera sua referencia apontada para null<br>
+e os elementos a cima apontaram para o de baixo, exemplo...
+elemento 1 ref -> null, elemento 2 ref -> elemento 1, elemento 3 ref -> elemento 2...<br>
+No topo da lista tem uma referencia que aponta para ele também.
 
