@@ -92,4 +92,9 @@ tem uma referencia de nó por onde se entra na fila.
 - enqueue() -> enfileirar (colocar na fila)
 - dequeue() -> desenfileirar (tirar da fila)
 - isEmpty
+_____________________________________________________
+
+# Lista encadeada
+Se parece com a fila, porem podemos adicionar elementos em diversos lugares<br>
+ou seja ele não é nem FIFO nem LIFO necessáriamente.
 
